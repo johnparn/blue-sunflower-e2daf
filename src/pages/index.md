@@ -58,6 +58,10 @@ sections:
       - label: Get Started
         url: /docs/getting-started
         style: secondary
+  - title: lorem-ipsum
+    sectionid: lorem-ipsum
+    video: 'https://example.com'
+    type: section_hero_video
   - section_id: text-no-img
     type: section_content
     title: A Section Without Image
