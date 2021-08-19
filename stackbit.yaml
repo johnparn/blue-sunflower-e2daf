@@ -661,8 +661,10 @@ models:
               label: Relative Url
   section_hero_video:
     type: object
-    label: Hero Vide Section
+    label: Hero Video Section
     fields:
       - name: title
         type: string
         label: Title
+      - name: ''
+        type: string
