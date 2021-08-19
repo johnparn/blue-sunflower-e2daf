@@ -12,7 +12,7 @@ export default class SectionHeroVideo extends React.Component {
               {_.get(section, 'video', null) && (
               <video class="bg-video" autoplay="autoplay" loop="" poster={toStyleObj('background-image: url(\'' + withPrefix(_.get(section, 'video', null)) + '\')')}
               
-              https://www.suntarbetsliv.se/wp-content/uploads/2016/11/SA_widemovie_5.jpg" preload="auto" muted="muted"><source src="https://www.suntarbetsliv.se/wp-content/uploads/2016/11/SA_widemovie_5.mp4" type="video/mp4"></video>
+              " preload="auto" muted="muted"><source src="https://www.suntarbetsliv.se/wp-content/uploads/2016/11/SA_widemovie_5.mp4" type="video/mp4"></video>
 
               <div className="bg-vid" style={toStyleObj('background-image: url(\'' + withPrefix(_.get(section, 'video', null)) + '\')')}/>
               )}
