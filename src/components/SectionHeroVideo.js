@@ -18,7 +18,6 @@ export default class SectionHeroVideo extends React.Component {
                   <h1 className="block-title">{_.get(section, 'title', null)}</h1>
                 </div>
                 )}
-                
               </div>
             </section>
         );
