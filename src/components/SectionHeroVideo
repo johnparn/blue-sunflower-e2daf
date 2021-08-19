@@ -10,7 +10,7 @@ export default class SectionHeroVideo extends React.Component {
         return (
             <section id={_.get(section, 'section_id', null)} className="block block-hero has-gradient outer">
               {_.get(section, 'video', null) && (
-              <video class="bg-video" autoplay="autoplay" loop="" preload="auto" muted="muted"><source src="https://www.suntarbetsliv.se/wp-content/uploads/2016/11/SA_widemovie_5.mp4" type="video/mp4"></video>
+              <video class="bg-video" autoplay="autoplay" loop="" preload="auto" muted="muted"><source src={withPrefix(_.get(section, 'video', null)) } type="video/mp4"></video>
 
               <div className="bg-vid" style={toStyleObj('background-image: url(\'' + withPrefix(_.get(section, 'video', null)) + '\')')}/>
               )}
