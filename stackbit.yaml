@@ -198,6 +198,7 @@ models:
             - section_docs
             - section_grid
             - section_hero
+            - section_hero_video
       - type: model
         name: seo
         models:
