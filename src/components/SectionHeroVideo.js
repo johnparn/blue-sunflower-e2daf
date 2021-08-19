@@ -32,3 +32,4 @@ export default class SectionHeroVideo extends React.Component {
       </section>
     );
   }
+}
