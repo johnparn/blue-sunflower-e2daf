@@ -58,7 +58,7 @@ sections:
       - label: Get Started
         url: /docs/getting-started
         style: secondary
-  - sectionid: lorem-ipsum
+  - section_id: lorem-ipsum
     title: lorem-ipsum
     video: 'https://www.suntarbetsliv.se/wp-content/uploads/2016/11/SA_widemovie_5.mp4'
     type: section_hero_video
