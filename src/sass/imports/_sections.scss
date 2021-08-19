@@ -318,6 +318,36 @@
   }
 }
 
+.block-hero-video {
+  min-height: 25vh;
+}
+
+.bg-video-container {
+  height: 40vh;
+  width: 100%;
+  overflow: hidden;
+  pointer-events: none;
+  position: absolute;
+  /* top: 0; */
+  /* left: 0; */
+  /* width: 100%; */
+  // z-index: 0;
+  // width: 100%;
+  // padding-bottom: 7.5em;
+  // position: absolute;
+  // height: 100%;
+  // overflow: hidden;
+  // pointer-events: none;
+  // text-align: center;
+  // left: 50%;
+  // top: 50%;
+  // transform: translate(-50%, -50%);
+}
+
+.bg-video {
+  width: 100%;
+}
+
 @media only screen and (min-width: 641px) {
   .block-hero {
     .block-title {

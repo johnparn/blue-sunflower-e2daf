@@ -468,7 +468,27 @@ models:
           type: model
           models:
             - action
-    labelField: title
+  section_hero_video:
+    type: object
+    label: Hero Video Section
+    extends:
+      - section
+    fields:
+      - type: string
+        name: video
+        label: Video
+        description: The video shown in the background of the section
+      - type: markdown
+        name: content
+        label: Content
+        description: The text content of the section
+      - type: list
+        name: actions
+        label: Action Buttons
+        items:
+          type: model
+          models:
+            - action
   grid_item:
     type: object
     label: Grid Item
@@ -514,7 +534,7 @@ models:
         name: url
         label: URL
         required: true
-        default: '#'
+        default: "#"
       - type: enum
         name: style
         label: Style
@@ -614,12 +634,12 @@ models:
         name: title
         label: Title
         description: The page title that goes into the <title> tag
-        default: ''
+        default: ""
       - type: string
         name: description
         label: Description
         description: The page description that goes into the <meta name="description"> tag
-        default: ''
+        default: ""
       - type: list
         name: robots
         label: Robots
