@@ -666,12 +666,12 @@ models:
       - name: title
         type: string
         label: Title
-      - name: video
-        type: url
-        label: Video
-        required: true
       - name: sectionid
         type: string
         label: SectionID
         description: A unique identifier of the section, must not contain whitespace
+        required: true
+      - name: video
+        type: url
+        label: Video
         required: true
