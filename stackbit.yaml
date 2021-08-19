@@ -663,5 +663,5 @@ models:
     type: object
     label: Hero Vide Section
     fields:
-      - name: ''
+      - name: title
         type: string
