@@ -668,7 +668,7 @@ models:
         label: Title
       - name: sectionid
         type: string
-        label: SectionID
+        label: Section ID
         description: A unique identifier of the section, must not contain whitespace
         required: true
       - name: video
