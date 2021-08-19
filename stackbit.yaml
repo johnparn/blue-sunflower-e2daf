@@ -667,4 +667,4 @@ models:
         type: string
         label: Title
       - name: video
-        type: string
+        type: url
