@@ -670,5 +670,5 @@ models:
         type: url
         label: Video
         required: true
-      - name: ''
+      - name: sectionid
         type: string
