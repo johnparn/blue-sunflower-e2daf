@@ -7,10 +7,22 @@
     "has_nav": true,
     "nav_links": [
       {
-        "label": "Kom ingång",
+        "label": "Kom igång",
         "url": "/",
         "style": "link",
-        "has_subnav": false
+        "has_subnav": true,
+        "subnav_links": [
+          {
+            "label": "Hur gör andra?",
+            "url": "/overview",
+            "style": "link"
+          },
+          {
+            "label": "Checklistor",
+            "url": "/showcase",
+            "style": "link"
+          }
+        ]
       },
       {
         "label": "Undersök",
@@ -25,18 +37,18 @@
         "has_subnav": false
       },
       {
-        "label": "Ubilda",
+        "label": "Utbilda",
         "url": "#",
         "style": "link",
         "has_subnav": true,
         "subnav_links": [
           {
-            "label": "Overview",
+            "label": "Material",
             "url": "/overview",
             "style": "link"
           },
           {
-            "label": "Showcase",
+            "label": "Verktyg",
             "url": "/showcase",
             "style": "link"
           }
