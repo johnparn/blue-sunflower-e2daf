@@ -673,3 +673,5 @@ models:
       - name: sectionid
         type: string
         label: SectionID
+        description: A unique identifier of the section, must not contain whitespace
+        required: true
