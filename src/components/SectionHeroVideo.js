@@ -18,16 +18,7 @@ export default class SectionHeroVideo extends React.Component {
                   <h1 className="block-title">{_.get(section, 'title', null)}</h1>
                 </div>
                 )}
-                {_.get(section, 'content', null) && (
-                <div className="block-content">
-                  {markdownify(_.get(section, 'content', null))}
-                </div>
-                )}
-                {_.get(section, 'actions', null) && (
-                <div className="block-buttons">
-                  <CtaButtons {...this.props} actions={_.get(section, 'actions', null)} />
-                </div>
-                )}
+                
               </div>
             </section>
         );
