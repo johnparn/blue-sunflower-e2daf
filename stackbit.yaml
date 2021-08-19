@@ -666,5 +666,5 @@ models:
       - name: title
         type: string
         label: Title
-      - name: ''
+      - name: video
         type: string
