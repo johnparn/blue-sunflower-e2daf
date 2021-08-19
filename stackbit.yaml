@@ -668,5 +668,5 @@ models:
         label: Title
       - name: video
         type: url
-        label: video
+        label: Video
         required: true
