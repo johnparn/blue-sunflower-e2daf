@@ -670,3 +670,5 @@ models:
         type: url
         label: Video
         required: true
+      - name: ''
+        type: string
