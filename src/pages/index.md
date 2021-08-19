@@ -60,7 +60,7 @@ sections:
         style: secondary
   - title: lorem-ipsum
     sectionid: lorem-ipsum
-    video: 'https://example.com'
+    video: 'https://www.suntarbetsliv.se/wp-content/uploads/2016/11/SA_widemovie_5.mp4'
     type: section_hero_video
   - section_id: text-no-img
     type: section_content
