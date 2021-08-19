@@ -7,7 +7,7 @@
         "has_nav": true,
         "nav_links": [
             {
-                "label": "Home",
+                "label": "Kom igång",
                 "url": "/",
                 "style": "link",
                 "has_subnav": false
