@@ -1,17 +1,23 @@
 ---
 title: Home
 sections:
-  - section_id: hero
-    type: section_hero
-    title: Hero Section
-    image: images/5.jpg
-    content: >-
-      This section can contain a subtitle or tagline. The recommended length is
-      one to three sentences, but can be changed as you prefer.
-    actions:
-      - label: Get Started
-        url: /docs
-        style: primary
+  # - section_id: hero
+  #   type: section_hero
+  #   title: Hero Section
+  #   image: images/5.jpg
+  #   content: >-
+  #     This section can contain a subtitle or tagline. The recommended length is
+  #     one to three sentences, but can be changed as you prefer.
+  #   actions:
+  #     - label: Get Started
+  #       url: /docs
+  #       style: primary
+  - section_id: video
+    type: section_hero_video
+    video: https://www.suntarbetsliv.se/wp-content/uploads/2016/11/SA_widemovie_5.mp4
+    # content: >-
+    #   This section can contain a subtitle or tagline. The recommended length is
+    #   one to three sentences, but can be changed as you prefer.
   - section_id: features
     type: section_grid
     col_number: three
@@ -105,26 +111,26 @@ seo:
   title: Stackbit Libris Theme
   description: The preview of the Libris theme
   extra:
-    - name: 'og:type'
+    - name: "og:type"
       value: website
       keyName: property
-    - name: 'og:title'
+    - name: "og:title"
       value: Stackbit Libris Theme
       keyName: property
-    - name: 'og:description'
+    - name: "og:description"
       value: The preview of the Libris theme
       keyName: property
-    - name: 'og:image'
+    - name: "og:image"
       value: images/4.jpg
       keyName: property
       relativeUrl: true
-    - name: 'twitter:card'
+    - name: "twitter:card"
       value: summary_large_image
-    - name: 'twitter:title'
+    - name: "twitter:title"
       value: Stackbit Libris Theme
-    - name: 'twitter:description'
+    - name: "twitter:description"
       value: The preview of the Libris theme
-    - name: 'twitter:image'
+    - name: "twitter:image"
       value: images/4.jpg
       relativeUrl: true
 template: advanced

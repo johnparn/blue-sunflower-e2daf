@@ -144,7 +144,7 @@ models:
           type: string
   docs:
     type: page
-    urlPath: '/docs/{slug}'
+    urlPath: "/docs/{slug}"
     label: Documentation Pages
     layout: docs
     folder: docs
@@ -195,6 +195,7 @@ models:
             - section_docs
             - section_grid
             - section_hero
+            - section_hero_video
       - type: model
         name: seo
         models:
@@ -258,7 +259,7 @@ models:
           - stackbit_page_meta
   post:
     type: page
-    urlPath: '/blog/{slug}'
+    urlPath: "/blog/{slug}"
     label: Post
     layout: post
     folder: blog
@@ -308,7 +309,7 @@ models:
       - type: string
         name: section_id
         label: Section ID
-        description: 'A unique identifier of the section, must not contain whitespace'
+        description: "A unique identifier of the section, must not contain whitespace"
   section_content:
     type: object
     label: Content Section
@@ -425,6 +426,27 @@ models:
           type: model
           models:
             - action
+  section_hero_video:
+    type: object
+    label: Hero Video Section
+    extends:
+      - section
+    fields:
+      - type: string
+        name: video
+        label: Video
+        description: The video shown in the background of the section
+      - type: markdown
+        name: content
+        label: Content
+        description: The text content of the section
+      - type: list
+        name: actions
+        label: Action Buttons
+        items:
+          type: model
+          models:
+            - action
   grid_item:
     type: object
     label: Grid Item
@@ -470,7 +492,7 @@ models:
         name: url
         label: URL
         required: true
-        default: '#'
+        default: "#"
       - type: enum
         name: style
         label: Style
@@ -529,12 +551,12 @@ models:
         name: title
         label: Title
         description: The page title that goes into the <title> tag
-        default: ''
+        default: ""
       - type: string
         name: description
         label: Description
         description: The page description that goes into the <meta name="description"> tag
-        default: ''
+        default: ""
       - type: list
         name: robots
         label: Robots
@@ -562,10 +584,10 @@ models:
           fields:
             - type: string
               name: name
-              default: ''
+              default: ""
             - type: string
               name: value
-              default: ''
+              default: ""
             - type: string
               name: keyName
               default: name
