@@ -1,17 +1,17 @@
 ---
 title: Home
 sections:
-   - section_id: hero
-     type: section_hero
-     title: Hero Section
-     image: images/5.jpg
-     content: >-
-       This section can contain a subtitle or tagline. The recommended length is
-       one to three sentences, but can be changed as you prefer.
-     actions:
-       - label: Get Started
-         url: /docs
-         style: primary
+  # - section_id: hero
+  #   type: section_hero
+  #   title: Hero Section
+  #   image: images/5.jpg
+  #   content: >-
+  #     This section can contain a subtitle or tagline. The recommended length is
+  #     one to three sentences, but can be changed as you prefer.
+  #   actions:
+  #     - label: Get Started
+  #       url: /docs
+  #       style: primary
   - section_id: video
     type: section_hero_video
     video: https://www.suntarbetsliv.se/wp-content/uploads/2016/11/SA_widemovie_5.mp4
